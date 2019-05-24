@@ -16,3 +16,5 @@ You can add the application to IPFS using:
 `ipfs add -r build`
 
 Then you can access the site from the last hash that's returned from that operation
+
+To change the address of the Flask API server, change the `fetch` target in `src/Form.js`
